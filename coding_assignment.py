@@ -79,9 +79,9 @@ while user_guess != random_number:
         print("Try again! The random number is higher!")
         # Let the user to guess again
         user_guess = int(input("Enter a number between 1 - 10: "))
+# If they did not use all their guesses
 if attempts > 0:
     # Tell the user they got the answer corrctly
     print("You guessed correctly! The number was ", random_number)
     # Print out the users previous guesses
     print(previous_guesses)
-        
